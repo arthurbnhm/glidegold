@@ -7,6 +7,3 @@ window.function = async function () {
     value_dol: data.value_dol 
   };
 }
-
-
-
