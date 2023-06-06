@@ -1,9 +1,10 @@
-window.function = async function () {
-  var url = "https://www.gold.fr/get-gs-price/?id=gold&format=json"; 
-  var response = await fetch(url);
-  var data = await response.json();
-  return { 
-    value_eur: data.value_eur, 
-    value_dol: data.value_dol 
-  };
-}
+// L'URL que vous voulez récupérer
+var url = "http://example.com/api/data";
+
+// Faire une requête HTTP GET
+fetch(url)
+  .then(response => response.json())
+  .then(data => {
+    // Maintenant, `data` est un objet JavaScript que vous pouvez utiliser comme n'importe quel autre objet
+    console.log(data);
+  });
