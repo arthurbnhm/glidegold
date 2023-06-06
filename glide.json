@@ -1,0 +1,10 @@
+{
+  "name": "Gold Price Fetcher",
+  "description": "Fetches the current price of gold in EUR and USD.",
+  "parameters": [],
+  "result": { "kind": "object", "properties": { 
+    "value_eur": "number", 
+    "value_dol": "number" 
+    } 
+  }
+}
